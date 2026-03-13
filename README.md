@@ -188,3 +188,7 @@ actionops-ai/
 3. Policy requires elevated approval.
 4. After execution, verification remains inconclusive.
 5. ActionOps records the failed recovery and escalates with the incident timeline intact.
+
+## License
+
+All Rights Reserved.
