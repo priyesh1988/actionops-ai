@@ -1,0 +1,10 @@
+backend:
+  image: ghcr.io/example/actionops-backend:latest
+  replicas: 2
+  env:
+    AUTH_MODE: jwt
+    DATABASE_URL: postgresql+psycopg://actionops:actionops@postgres:5432/actionops
+    OTEL_ENABLED: "true"
+    OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector:4318/v1/traces
+service:
+  port: 8080

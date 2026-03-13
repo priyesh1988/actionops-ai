@@ -1,0 +1,21 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0b1020;
+  color: #e5eef8;
+}
+body { margin: 0; }
+.page { padding: 32px; max-width: 1200px; margin: 0 auto; }
+.hero, .card-head, .stats { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.hero { margin-bottom: 24px; }
+button { background: #5b7cff; color: white; border: 0; border-radius: 10px; padding: 10px 14px; cursor: pointer; }
+.grid { display: grid; grid-template-columns: 280px 1fr; gap: 20px; }
+.panel { background: #121933; border: 1px solid #22305d; border-radius: 18px; padding: 20px; }
+.stats { flex-direction: column; align-items: stretch; }
+.stats > div { background: #0f1730; border-radius: 14px; padding: 16px; display: flex; justify-content: space-between; }
+.stats strong { font-size: 26px; }
+.stats span { color: #9fb3d1; }
+.list { display: grid; gap: 14px; }
+.card { background: #0f1730; border: 1px solid #22305d; border-radius: 14px; padding: 16px; }
+h1, h2, h3, p { margin-top: 0; }
+p { color: #9fb3d1; }
