@@ -4,16 +4,6 @@
 
 ActionOps AI ingests deployment failures, application incidents, and workflow errors; explains probable root cause; calculates blast radius and confidence; enforces policy and approvals; executes approved recovery actions; persists the full timeline in PostgreSQL; and emits metrics/traces for enterprise operations.
 
-## What changed in this production-grade version
-
-- **OIDC/JWT-ready auth** with `dev` and `jwt` modes
-- **PostgreSQL persistence** via SQLAlchemy-backed incident, approval, execution, and audit tables
-- **Argo Rollouts adapter** for rollback, pause, and restart workflows
-- **Slack + PagerDuty hooks** for recovery and escalation fanout
-- **Prometheus metrics** exposed at `/metrics`
-- **OpenTelemetry tracing** with OTLP export support
-- **Updated Docker Compose** with PostgreSQL, Prometheus, and Jaeger for local observability
-
 ## Core workflow
 
 ```text
