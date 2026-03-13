@@ -1,6 +1,6 @@
 # ActionOps AI
 
-**AI issue triage and permissioned recovery platform for end-to-end product deployment.**
+**AI issue triage and approval-based recovery platform for end-to-end product deployment.**
 
 ActionOps AI ingests deployment failures, application incidents, and workflow errors; explains probable root cause; calculates blast radius and confidence; enforces policy and approvals; executes approved recovery actions; persists the full timeline in PostgreSQL; and emits metrics/traces for enterprise operations.
 
